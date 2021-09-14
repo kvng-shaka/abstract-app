@@ -17,9 +17,7 @@
         </nav><br>
         <div class="container">
             <div class="row">
-                <button class="btn btn-primary">
-                    <a class="navbar-brand mb-0 h1" href="/dashboard">Back to Dashboard</a>
-                </button>
+                <a class="btn btn-primary" href="/dashboard">Back to Dashboard</a>
             </div>
             <br><br>
             
