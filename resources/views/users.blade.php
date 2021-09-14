@@ -12,15 +12,17 @@
   </head>
   <body>
     
-
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">Navbar</span>
+        </nav><br>
         <div class="container">
             <div class="row">
-                <nav class="navbar navbar-light bg-light">
-                    <a class="navbar-brand mb-0 h1" href="/dashboard">Navbar</a>
-                </nav>
+                <button class="btn btn-primary">
+                    <a class="navbar-brand mb-0 h1" href="/dashboard">Back to Dashboard</a>
+                </button>
             </div>
             <br><br>
-            <br>
+            
             <div class="row justify-content-center">
                         <div class="col-md-8">
                             <div class="card">
