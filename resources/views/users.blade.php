@@ -14,6 +14,13 @@
     
 
         <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-light bg-light">
+                    <a class="navbar-brand mb-0 h1" href="/dashboard">Navbar</a>
+                </nav>
+            </div>
+            <br><br>
+            <br>
             <div class="row justify-content-center">
                         <div class="col-md-8">
                             <div class="card">
