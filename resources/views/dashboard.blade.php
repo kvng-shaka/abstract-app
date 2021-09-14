@@ -1,12 +1,12 @@
 <?php
-    $user = App\Models\User::where('admin', '=', 'true')->get();
+    $chk = App\Models\User::where('admin', '=', 'true')->get();
     //dd($users);
 ?>
 
 
 
 
-@if ($user)
+@if ($chk)
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
