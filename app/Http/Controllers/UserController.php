@@ -12,7 +12,8 @@ class UserController extends Controller
         //$users = User::all();
         $users = User::where('admin', '=', '0')->get();
 
-        return view('users')->with('users', $users);
+        //return view('users')->with('users', $users);
+        return view('dashboard')->with('users', $users);
     }
 
     public function approve($id)
