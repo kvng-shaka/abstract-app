@@ -9,8 +9,8 @@ class UserController extends Controller
 {
     public function index()
     {
-        $users = User::all();
-        //$users = User::whereNull('approved_at')->get();
+        //$users = User::all();
+        $users = User::where('admin', '=', '0')->get();
 
         return view('users')->with('users', $users);
     }
